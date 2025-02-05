@@ -6,16 +6,17 @@ const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
+        {/* <img className="w-32" src={logo} alt="logo" /> */}
+        <h1 className=' font-extrabold text-5xl'>SDH.</h1>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+            <a href='https://www.linkedin.com/in/syed-danish-hussain-1a4610218' target='blank'><FaFacebookF /></a>
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+            <a href='https://www.linkedin.com/in/syed-danish-hussain-1a4610218' target='blank'><FaTwitter /></a>
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+            <a href='https://www.linkedin.com/in/syed-danish-hussain-1a4610218' target='blank'><FaLinkedinIn /></a>
           </span>
         </div>
       </div>

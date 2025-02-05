@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { pokedex, projectTwo, project1, chatApp } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -17,40 +17,46 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
+          title="Pizza-App Backend"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          src={project1}
+          repoHref={'https://github.com/bruhDanish/Pizza_App-Backend'}
+          liveHref={'https://github.com/bruhDanish/Pizza_App-Backend'}  od
         />
         <ProjectsCard
-          title="E-commerce Website"
+          title="Pokedex App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          src={pokedex}
+          repoHref={'https://github.com/bruhDanish/Pokedex-ReactJs'}
+          liveHref={'https://project-pokedex-reactjs.netlify.app/'}
         />
-        <ProjectsCard
+        {/* <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
-        />
-        <ProjectsCard
+        /> */}
+        {/* <ProjectsCard
           title="SOCIAL MEDIA CLONE"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectThree}
-        />
-        <ProjectsCard
+        /> */}
+        {/* <ProjectsCard
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
-        />
+        /> */}
         <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          src={chatApp}
+          repoHref={'https://github.com/bruhDanish/Chat-App'}
+          liveHref={'https://chat-app-tqvj.onrender.com'}
         />
       </div>
     </section>

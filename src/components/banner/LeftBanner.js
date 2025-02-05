@@ -22,7 +22,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm <span className="text-designColor capitalize">Syed Danish Hussain</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -44,29 +44,29 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://github.com/bruhDanish" target="blank">
               <span className="bannerIcon">
                 <FaGithub />
               </span>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://www.linkedin.com/in/syed-danish-hussain-1a4610218" target="blank">
               <span className="bannerIcon">
                 <FaFacebookF />
               </span>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://www.linkedin.com/in/syed-danish-hussain-1a4610218" target="blank">
               <span className="bannerIcon">
                 <FaTwitter />
               </span>
             </a>
-            <a href="https://github.com/noorjsdivs/portfolioone" target="blank">
+            <a href="https://www.linkedin.com/in/syed-danish-hussain-1a4610218" target="blank">
               <span className="bannerIcon">
                 <FaLinkedinIn />
               </span>
             </a>
           </div>
         </div>
-        <div>
+        {/* <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
@@ -84,7 +84,7 @@ const LeftBanner = () => {
               <SiFigma />
             </span>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
