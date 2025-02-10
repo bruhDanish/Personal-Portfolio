@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
 
 const Footer = () => {
   return (
@@ -57,7 +56,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className="w-full h-full">
+      {/* <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           RESOURCES
         </h3>
@@ -93,8 +92,8 @@ const Footer = () => {
             </span>
           </li>
         </ul>
-      </div>
-      <div className="w-full h-full">
+      </div> */}
+      {/* <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           DEVELOPERS
         </h3>
@@ -130,7 +129,7 @@ const Footer = () => {
             </span>
           </li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -19,13 +19,15 @@ const Experience = () => {
             title="Content Strategist Trainee"
             subTitle="PW IOI - (Feb-25 - Present)"
             result="Bengaluru, Karnataka"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            des="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet purus in odio."
           />
           <ResumeCard
             title="Web Developer Intern"
-            subTitle="CodSoft - (2023)"
+            subTitle="CodSoft - (Aug-Sep 2023)"
             result="Remote"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            des="● Developed a fully responsive landing page using HTML, CSS, and JavaScript, focusing on optimizing user experience."
+            des2="● Created a dynamic portfolio website showcasing personal projects and skills, implementing responsive design."
+            des3="● Designed and built a functional calculator application using JavaScript, enhancing user interactivity and experience."
           />
         </div>
       </div>

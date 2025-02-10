@@ -10,7 +10,7 @@ import contactImg from "./images/contact/contactImg.png";
 import project1 from "./images/projects/project1.png";
 import pokedex from "./images/projects/image.png";
 import chatApp from "./images/projects/image copy.png"
-import myLogo from "./images/logo.webp";
+import myLogo from "./images/—Pngtree—programmers code the website from_4157702.png"
 
 export {
   logo,
